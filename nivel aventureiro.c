@@ -6,7 +6,8 @@ typedef struct NivelAventureiro{
     char nome[30];
     char cor[15];
     int tropas;
-}territorio;    
+}territorio;   
+ /função simular batalha/
 
 
 
