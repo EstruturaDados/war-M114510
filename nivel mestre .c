@@ -1,26 +1,28 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
-//territorio brasil no war;
+//estrutura do projeto:
 
-struct nivel mestre 
-{
+definindo a struct Brasil;
+typedef struct Brasil {
     char nome[30];
-    int idade;
-    char especialidade[50]; 
-    void exibirInfo() {
-        printf("Nome: %s\n", nome);
-        printf("Idade: %d\n", idade);
-        printf("Especialidade: %s\n", especialidade);
-    }   
-        
-};
+    long populacao;
+    char capital[30];
+
+int main() {
+    struct brasil pais;
 
     
     
 
     
-    }
+
+    
+
+
+
+
 
 
 
