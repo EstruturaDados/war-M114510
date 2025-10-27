@@ -1,14 +1,27 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
-#include <time.h>
 
-#define MAX_territorios 4
+//territorio brasil no war;
 
-estrutura Territorio {
-    char nome[50];
-    int tropas;
-}territorios;
- /iniciar territorios/
+struct nivel mestre 
+{
+    char nome[30];
+    int idade;
+    char especialidade[50]; 
+    void exibirInfo() {
+        printf("Nome: %s\n", nome);
+        printf("Idade: %d\n", idade);
+        printf("Especialidade: %s\n", especialidade);
+    }   
+        
+};
+
     
+    
+
+    
+    }
+
+
+
 
