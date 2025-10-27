@@ -4,7 +4,8 @@
 
 //estrutura do projeto:
 
-definindo a struct Brasil;
+//definindo a struct Brasil;
+
 typedef struct Brasil {
     char nome[30];
     long populacao;
@@ -13,17 +14,13 @@ typedef struct Brasil {
 int main() {
     struct brasil pais;
 
+    //atrubuir valores aos campos da struct
+    strcpy(pais.nome, "Brasil");
+    pais.populacao = 213000000;
+    strcpy(pais.capital, "Brasilia");
+    //exibir os valores dos campos da struct
+    printf("País:%s\n", pais.nome);
+    printf("População:%ld\n", pais.populacao);
+    printf("Capital:%s\n", pais.capital);
+    return 0;
     
-    
-
-    
-
-    
-
-
-
-
-
-
-
-
