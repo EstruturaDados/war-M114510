@@ -7,6 +7,19 @@
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include <string.h>
-// #include "war.h" 
+// 
+//estrutura do projeto:
+# define NUM_terrotorios 4
+typedef struct Territorio{
+    char nome[30];
+    char cor [15];
+    int tropas ;
+}territorio;
 
-printf("Iniciando o jogo War...\n");
+
+    
+
+
+
+
+
